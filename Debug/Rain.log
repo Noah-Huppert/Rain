@@ -1,0 +1,45 @@
+﻿Build started 5/21/2015 10:22:51 PM.
+     1>Project "C:\Users\noahh_000\Noah\Programing\CPP\Rain\Rain\Rain.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt Game.cpp main.cpp
+         main.cpp
+     1>c:\users\noahh_000\noah\programing\cpp\rain\rain\game.h(9): error C2065: 'Die': undeclared identifier
+     1>c:\users\noahh_000\noah\programing\cpp\rain\rain\game.h(9): error C2923: 'std::vector': 'Die' is not a valid template type argument for parameter '_Ty'
+     1>c:\users\noahh_000\noah\programing\cpp\rain\rain\game.h(10): error C2065: 'Die': undeclared identifier
+     1>c:\users\noahh_000\noah\programing\cpp\rain\rain\game.h(10): error C2923: 'std::vector': 'Die' is not a valid template type argument for parameter '_Ty'
+     1>c:\users\noahh_000\noah\programing\cpp\rain\rain\game.h(12): error C2065: 'Command': undeclared identifier
+     1>c:\users\noahh_000\noah\programing\cpp\rain\rain\game.h(12): error C2059: syntax error: '>'
+     1>c:\users\noahh_000\noah\programing\cpp\rain\rain\game.h(12): error C2976: 'std::vector': too few template arguments
+         c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(667): note: see declaration of 'std::vector'
+     1>c:\users\noahh_000\noah\programing\cpp\rain\rain\game.h(16): error C2143: syntax error: missing ';' before '*'
+     1>c:\users\noahh_000\noah\programing\cpp\rain\rain\game.h(16): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\noahh_000\noah\programing\cpp\rain\rain\game.h(16): error C2238: unexpected token(s) preceding ';'
+         Game.cpp
+     1>c:\users\noahh_000\noah\programing\cpp\rain\rain\game.h(9): error C2065: 'Die': undeclared identifier
+     1>c:\users\noahh_000\noah\programing\cpp\rain\rain\game.h(9): error C2923: 'std::vector': 'Die' is not a valid template type argument for parameter '_Ty'
+     1>c:\users\noahh_000\noah\programing\cpp\rain\rain\game.h(10): error C2065: 'Die': undeclared identifier
+     1>c:\users\noahh_000\noah\programing\cpp\rain\rain\game.h(10): error C2923: 'std::vector': 'Die' is not a valid template type argument for parameter '_Ty'
+     1>c:\users\noahh_000\noah\programing\cpp\rain\rain\game.h(12): error C2065: 'Command': undeclared identifier
+     1>c:\users\noahh_000\noah\programing\cpp\rain\rain\game.h(12): error C2059: syntax error: '>'
+     1>c:\users\noahh_000\noah\programing\cpp\rain\rain\game.h(12): error C2976: 'std::vector': too few template arguments
+         c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(667): note: see declaration of 'std::vector'
+     1>c:\users\noahh_000\noah\programing\cpp\rain\rain\game.h(16): error C2143: syntax error: missing ';' before '*'
+     1>c:\users\noahh_000\noah\programing\cpp\rain\rain\game.h(16): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\noahh_000\noah\programing\cpp\rain\rain\game.h(16): error C2238: unexpected token(s) preceding ';'
+     1>c:\users\noahh_000\noah\programing\cpp\rain\rain\game.cpp(6): error C2512: 'std::vector': no appropriate default constructor available
+         c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(667): note: see declaration of 'std::vector'
+     1>c:\users\noahh_000\noah\programing\cpp\rain\rain\game.cpp(7): error C2663: 'std::vector<_Ty,_Alloc>::push_back': 2 overloads have no legal conversion for 'this' pointer
+     1>c:\users\noahh_000\noah\programing\cpp\rain\rain\game.cpp(10): error C2039: 'getCommand': is not a member of 'Game'
+         c:\users\noahh_000\noah\programing\cpp\rain\rain\game.h(7): note: see declaration of 'Game'
+     1>c:\users\noahh_000\noah\programing\cpp\rain\rain\game.cpp(11): error C2065: 'commands': undeclared identifier
+     1>c:\users\noahh_000\noah\programing\cpp\rain\rain\game.cpp(11): error C2228: left of '.size' must have class/struct/union
+         c:\users\noahh_000\noah\programing\cpp\rain\rain\game.cpp(11): note: type is 'unknown-type'
+     1>c:\users\noahh_000\noah\programing\cpp\rain\rain\game.cpp(12): error C2065: 'commands': undeclared identifier
+     1>c:\users\noahh_000\noah\programing\cpp\rain\rain\game.cpp(12): error C2227: left of '->command' must point to class/struct/union/generic type
+     1>c:\users\noahh_000\noah\programing\cpp\rain\rain\game.cpp(13): error C2065: 'commands': undeclared identifier
+         Generating Code...
+     1>Done Building Project "C:\Users\noahh_000\Noah\Programing\CPP\Rain\Rain\Rain.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.87

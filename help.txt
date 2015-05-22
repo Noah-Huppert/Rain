@@ -1,0 +1,4 @@
+COMMANDS
+
+help		Shows this help text
+exit		Exits the game
